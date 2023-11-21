@@ -8,6 +8,14 @@ body {
   background-color: #f0f0f0;
 }
 
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
 h1 {
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
